@@ -79,7 +79,7 @@ export default function Home() {
     { name: 'Accelerate Your Job Search with AI', issuer: 'Coursera (Apr 7, 2026)', link: 'https://coursera.org/verify/O3W3ROZC2UBL' },
     { name: 'Google AI Essentials', issuer: 'Coursera (Nov 4, 2024)', link: 'https://coursera.org/verify/VZXGKG6SSB7P' },
     { name: 'Google Data Analytics', issuer: 'Coursera (Nov 9, 2024)', link: 'https://coursera.org/verify/professional-cert/TVQHOMNJ40QZ' },
-    { name: 'Google Prompting Essentials', issuer: 'Coursera', link: 'https://coursera.org/verify/OHOFJP007EZC' },
+    { name: 'Google Prompting Essentials', issuer: 'Coursera (Nov 5, 2024)', link: 'https://coursera.org/verify/OHOFJP007EZC' },
     { name: 'Python Essentials 1', issuer: 'Cisco Networking Academy (Feb 5, 2025)', link: '/python-essentials-1.jpg' },
     { name: 'Python Essentials 2', issuer: 'Cisco Networking Academy (Feb 5, 2025)', link: '/python-essentials-2.jpg' },
   ];
