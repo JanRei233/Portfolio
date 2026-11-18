@@ -66,6 +66,11 @@ export default function Home() {
       tags: ['React', 'TypeScript', 'Supabase', 'Express', 'Python', 'PHP', 'MySQL', 'Web App'],
     },
     {
+      icon: '☁️',
+      title: 'Cloud & Infrastructure',
+      tags: ['AWS (EC2, S3, IAM)', 'VPC & Networking', 'RDS & DynamoDB', 'AWS Lambda', 'CloudWatch', 'Linux', 'Nginx', 'SSL / Certbot'],
+    },
+    {
       icon: '📱',
       title: 'Mobile & AR',
       tags: ['Unity', 'C#', 'Augmented Reality', 'Dijkstra\'s Algorithm', '3D Visualization', 'Mobile App'],
@@ -94,19 +99,12 @@ export default function Home() {
       link: 'https://navsu.vercel.app/',
     },
     {
-      icon: '🏥',
-      title: 'Meditrack Clinic Management System',
-      tech: 'React • TypeScript • Supabase • Web App',
-      desc: 'A full-stack clinic management web application enabling secure patient monitoring, consultation tracking, inventory control, admin management, audit logs, and multi-format report generation.',
+      icon: '⚓',
+      title: 'Philippine Meteorological & Naval Oceanographic Intelligence',
+      tech: 'AWS • Python • Cloud Infrastructure • Geospatial Mapping • Numerical Modeling',
+      desc: 'An automated naval intelligence and weather forecasting platform deployed on AWS. Delivers real-time meteorological reports, numerical atmospheric modeling, and geospatial map plotting to support strategic naval and maritime operations.',
       year: '2025–Present',
-    },
-    {
-      icon: '🎙️',
-      title: 'Deepfake Voice Detection',
-      tech: 'Neural Network Architecture • Deep Learning • Python',
-      desc: 'Detects Deepfake voice using Support Vector Machines (SVM) algorithm to identify slight imperfections in voice tone and pitch with an acceptable accuracy of 97% using GBAD dataset.',
-      year: '2024–2025',
-      link: 'https://github.com/JanRei233/Echo-Reveal',
+      link: 'http://54.255.144.54/',
     },
     {
       icon: '🖼️',
@@ -114,7 +112,7 @@ export default function Home() {
       tech: 'Neural Network Architecture • Deep Learning • Python',
       desc: 'Aims to detect Deepfake images using EfficientNetV2B0 algorithm from authentic images with an acceptable accuracy of 84.19% using Kaggle dataset to prevent misinformation.',
       year: '2024–2025',
-      link: 'https://github.com/JanRei233/Deepfake-Image',
+      link: 'https://deepfake-image.vercel.app/',
     },
   ];
 
@@ -180,9 +178,9 @@ export default function Home() {
                   AI/ML Engineer&nbsp;&amp;&nbsp;<em>Full Stack Developer</em>_
                 </p>
                 <p className="hero-desc">
-                  Vice President&apos;s Lister and upcoming Computer Science graduate (2026) blending
-                  full-stack web development with advanced artificial intelligence. Specializing in
-                  neural network architectures, predictive modeling, and data analytics.
+                  BS in Computer Science graduate and AWS re/Start graduate blending full-stack
+                  web development, cloud infrastructure, and advanced artificial intelligence.
+                  Specializing in neural network architectures, predictive modeling, and data analytics.
                 </p>
                 <div className="hero-actions">
                   <a href="#contact" className="btn-primary" id="hero-contact-btn">
@@ -228,14 +226,15 @@ export default function Home() {
             <div className="about-grid">
               <div className="about-text">
                 <p>
-                  I&apos;m a passionate Computer Science student at Cavite State University – CCAT Campus,
-                  with a strong focus on building intelligent systems and clean, performant web
-                  applications. I thrive at the intersection of data science and software engineering.
+                  I&apos;m a passionate Computer Science graduate from Cavite State University – CCAT Campus
+                  and an AWS re/Start graduate, with a strong focus on building intelligent systems,
+                  cloud-ready infrastructure, and clean, performant web applications. I thrive at the
+                  intersection of data science, cloud computing, and software engineering.
                 </p>
                 <p>
-                  As a Vice President&apos;s Lister, I continuously push the boundaries of my technical
-                  skills — whether it&apos;s training deep learning models, building full-stack platforms, or
-                  creating AR experiences that bridge the digital and physical worlds.
+                  Driven by continuous learning, I push the boundaries of my technical skills —
+                  whether it&apos;s training deep learning models, deploying full-stack platforms on AWS,
+                  or creating AR experiences that bridge the digital and physical worlds.
                 </p>
                 <p>
                   I believe technology should be purposeful. Every project I take on is driven by a
@@ -251,10 +250,10 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="highlight-item">
-                  <div className="highlight-icon">🏆</div>
+                  <div className="highlight-icon">☁️</div>
                   <div>
-                    <h4>Vice President&apos;s Lister</h4>
-                    <p>2nd Year (SY 2023-2024), 3rd Year (SY 2024-2025)</p>
+                    <h4>AWS re/Start Graduate</h4>
+                    <p>Cloud Computing &amp; Infrastructure</p>
                   </div>
                 </div>
                 <div className="highlight-item">
@@ -371,8 +370,8 @@ export default function Home() {
                     <h3 className="timeline-title">BS Computer Science</h3>
                     <p className="timeline-org">Cavite State University – CCAT Campus</p>
                     <p className="timeline-desc">
-                      Consistent Vice President&apos;s Lister. Focused coursework in Artificial
-                      Intelligence, Machine Learning, Data Analytics, and Software Engineering.
+                      Focused coursework in Artificial Intelligence, Machine Learning,
+                      Data Analytics, and Software Engineering.
                     </p>
                   </div>
                   <div className="timeline-item">

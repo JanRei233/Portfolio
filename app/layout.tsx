@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Jhon Rhey Valleramos | AI/ML Engineer & Full Stack Developer",
-  description: "Portfolio of Jhon Rhey Valleramos — Computer Science student specializing in AI/ML, data analytics, and full-stack web development.",
+  description: "Portfolio of Jhon Rhey Valleramos — Computer Science graduate and AWS re/Start graduate specializing in AI/ML, cloud infrastructure, and full-stack web development.",
 };
 
 export default function RootLayout({
