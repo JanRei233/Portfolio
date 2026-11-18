@@ -78,6 +78,7 @@ export default function Home() {
   ];
 
   const certifications = [
+    { name: 'AWS re/Start Graduate', issuer: 'Amazon Web Services Training and Certification', link: 'https://www.credly.com/badges/a3c6362c-ee8a-48df-96e8-54d0fad55576/public_url' },
     { name: 'Data Analysis with R Programming', issuer: 'Coursera (Nov 9, 2024)', link: 'https://coursera.org/verify/AXL5Y0ISQJEL' },
     { name: 'Google Advanced Data Analytics', issuer: 'Coursera (Nov 15, 2024)', link: 'https://coursera.org/verify/professional-cert/BEVJWR9UIQDM' },
     { name: 'Foundations of Data Science', issuer: 'Coursera (Nov 15, 2024)', link: 'https://coursera.org/verify/G65CSBF6PRMC' },
